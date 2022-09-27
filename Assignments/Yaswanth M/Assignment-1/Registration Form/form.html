@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="img-bg">
+    <div class="container">
+        <div class="formcard">
+            <center>
+                <br>
+            <h2>Individual Registration Form</h2>
+            <form method="get">
+                <label>Name*: </label>
+                <input type="text" name="name" id="name" placeholder="Enter Name"/>
+                <br /><br />
+                <label>Roll No*: </label>
+                <input type="text" name="rollno" id="rollno" placeholder="Enter Roll No"/>
+                <br /><br />
+                <label><b>Email ID*:</b> </label>
+                <input type="text" name="email" id="email" placeholder="Enter Email ID"/>
+                <br /><br />
+                <div>
+                Gender:
+                    <input
+                        type="radio"
+                        name="gen"
+                        value="male"
+                        id="gen"
+                    />
+                    <label>Male</label>
+                    <input
+                        type="radio"
+                        name="gen"
+                        value="female"
+                        id="gen"
+                    />
+                    <label>Female</label>
+                </div>
+                <br /><br />
+                <label>College*: </label>
+                <input type="text" name="college" id="college" placeholder="Enter College of Study"/>
+                <br /><br />
+                <label for="">Project Category: </label>
+                <select id="project" >
+                    <option value="1" >--Select--</option>
+                    <option value="1">Cloud App Development</option>
+                    <option value="2">Machine Learning</option>
+                    <option value="3">Artificial Intelligence</option>
+                    <option value="4">Others</option>
+                </select>
+                <br /><br />
+                <input type="button" name="button" id="btn" value="Add To Table" onclick="AddToTable()"
+                />
+            </form>
+        </center>
+        </div>
+    <div class="child2">
+        <center>
+            <h2>Individual Details</h2>
+            <table border="1" id="tableshow">
+                <thead>
+                    <tr>
+                        <th>Rollno</th>
+                        <th>Name</th>
+                        <th>Email id</th>
+                        <th>Gender</th>
+                        <th>College</th>
+                        <th>Project Category</th>
+                    </tr>
+                </thead>
+            </table>
+        </center>
+    </div>
+</div>
+</body>
+
+    <script>
+        var name = "",rollno = "", email = "",gender ="",college = "",project = "";
+        var nextrow=1;
+        function AddToTable() {
+            var AddRown = document.getElementById("tableshow");
+            var NewRow = AddRown.insertRow(nextrow);
+
+            name = document.getElementById("name").value;
+            rollno = document.getElementById("rollno").value;
+            email = document.getElementById("email").value;
+            college = document.getElementById("college").value;
+
+            var e = document.getElementById("project");
+
+            project = e.options[e.selectedIndex].text;
+
+            const radioButtons = document.querySelectorAll('input[name="gen"]');
+
+            for (const radioButton of radioButtons) {
+                if (radioButton.checked) {
+                    gender = radioButton.value;
+                    break;
+                }
+            }
+
+            var cel1 = NewRow.insertCell(0);
+            var cel2 = NewRow.insertCell(1);
+            var cel3 = NewRow.insertCell(2);
+            var cel4 = NewRow.insertCell(3);
+            var cel5 = NewRow.insertCell(4);
+            var cel6 = NewRow.insertCell(5);
+
+            cel1.innerHTML = rollno;
+            cel2.innerHTML = name;
+            cel3.innerHTML = email;
+            cel4.innerHTML = gender;
+            cel5.innerHTML = college;
+            cel6.innerHTML = project;
+            nextrow++;
+        }
+    </script>
+</html>
