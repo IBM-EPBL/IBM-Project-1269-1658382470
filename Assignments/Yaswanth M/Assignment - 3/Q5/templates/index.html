@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediAssist</title>
+</head>
+<body>
+  <center>
+    <h1>Yas Multispeciality Hospital</h1>
+    <h3>Click on the message icon to fix an Appointment</h3>
+  </center>
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "2bf7de94-a8eb-4dd7-9e4b-1037357eb83e", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "04c7299d-fce6-4b04-a89c-e4a0fd0615eb", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+</body>
+</html>
