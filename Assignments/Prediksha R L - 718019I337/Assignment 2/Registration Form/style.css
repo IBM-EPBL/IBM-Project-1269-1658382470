@@ -1,0 +1,38 @@
+body {
+    background-image: url("todobg.jpg");
+    font-weight: bold;
+    font-size: 20dp;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+thead{
+    background-color: white;
+    color: black;
+}
+
+.formcard{
+    background-color: lightcyan;
+    width: 40%;
+    height: 600px;
+    border-radius: 15px;
+    flex: 1;
+    border: 4px solid black;
+
+}
+.child2{
+    border: 4px solid black;
+    background-color: rgb(186, 208, 226);
+    border-radius: 15px;
+    width: 60%;
+    height: 600px;
+}
+.formcard:first-child {
+    margin-right: 20px;
+} 
+form{
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+}
+
