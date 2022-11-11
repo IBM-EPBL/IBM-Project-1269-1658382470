@@ -20,4 +20,4 @@ Sprint 4:
 🚀Deploying the application using Docker and Kubernetes
 
 
-**Other Minor Changes** : UI updation based on interactivity and appealing theme.
+**Other Minor Changes** : "UI updation based on interactivity and appealing theme."
