@@ -6,7 +6,7 @@ from passlib.hash import sha256_crypt
 from functools import wraps
 import win32api
 
-from email_alert import *
+from sendgrid import *
 
 #creating an app instance
 app = Flask(__name__)
