@@ -1,6 +1,16 @@
 # IBM-Project-1269-1658382470
 Inventory Managment System for Retailers
 
+**Team members:**
+
+1. Abishek L R   - 718019I303
+
+2. Kaaviya A     - 718019I325
+
+3. Prediksha R L - 718019I337
+
+4. Yaswanth M    - 718019I361
+
 # README.md Contents
 1. Link for our Deployed Application
 2. Demonstration Video Link
