@@ -7,8 +7,14 @@ Inventory Managment System for Retailers
 3. Proposed System Data Flow Diagram
 4. Steps to run the Final Code
 
-# Link for our Deployed Application
-Launch🚀 : http://169.51.207.105:30958/
+# 🏮Check Out our Deployed Application🏮 
+
+🚀http://169.51.207.105:30958/ 🚀
+
+# 🏮Demonstration Video Link🏮
+
+📽️ https://vimeo.com/770710318 📽️
+
 
 # About the project Topic
 Software Required:
