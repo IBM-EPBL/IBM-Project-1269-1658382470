@@ -12,6 +12,8 @@
 
 Hurrah🎉!! You are good to go! Launch the Application! And You will see the application running in your localhost!
 
+
+
 ↘️**Steps to deploy the application online:**↙️
 
 **Step 1:** Create your own container registry and kubernetes cluster in IBM Cloud.
