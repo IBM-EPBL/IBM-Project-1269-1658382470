@@ -1,6 +1,16 @@
 # IBM-Project-1269-1658382470
 Inventory Managment System for Retailers
 
+# README.md Contents
+1. Link for our Deployed Application
+2. About the project Topic
+3. Proposed System Data Flow Diagram
+4. Steps to run the Final Code
+
+# Link for our Deployed Application
+Launch🚀 : http://169.51.207.105:30958/
+
+# About the project Topic
 Software Required:
 Python, Flask , Docker
 
@@ -20,7 +30,31 @@ Technical Architecture:
 
 ![image](https://user-images.githubusercontent.com/66524865/190607263-e79215b0-7a7c-4476-84d7-239369d92b4d.png)
 
+# Proposed System Data Flow Diagram
+![image](https://user-images.githubusercontent.com/66524865/201616028-aa550c83-b69d-4ad4-b6a6-af2381b08bea.png)
 
+# Steps to run the Final Code
+🙌The Code is Fully Functional🙌
+
+↘️**Steps to execute the code:**↙️
+
+Step 1: Make your own Database in IBM Cloud and Provide your own IBM DB Credentials in the connection statement of app.py
+
+Step 2: Provide your own sendgrid api key in sendgrid.py
+
+Step 3: Download your own DigitalCertificate from IBM cloud DB and put in your Project folder.
+
+Hurrah🎉!! You are good to go! Launch the Application! And You will see the application running in your localhost!
+
+↘️**Steps to deploy the application online:**↙️
+
+Step 1: Create your own container registry and kubernetes cluster in IBM Cloud.
+
+Step 2: Setup Docker in your desktop.
+
+Step 3: Create docker image for your application and deploy it using IBM Container and Kubernetes Service.
+
+Our Application's Public URL : http://169.51.207.105:30958/
 
 
 
