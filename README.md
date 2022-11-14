@@ -14,12 +14,15 @@ Inventory Managment System for Retailers
 
 **IMPORTANT NOTE** - While registering using unique username and password. If IBM Cloud default security service identifies the username and passoword combo to be breachable then internal server error occurs!
 
+---------------------------------------------------------
+
 You may use this Login credentials to login,
 
 **Username** - Team AKPY
 
 **Password** - nalaiyathiran
 
+---------------------------------------------------------
 # 🏮Demonstration Video Link🏮
 
 📽️ https://vimeo.com/770710318 📽️
