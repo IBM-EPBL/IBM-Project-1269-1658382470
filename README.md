@@ -3,9 +3,10 @@ Inventory Managment System for Retailers
 
 # README.md Contents
 1. Link for our Deployed Application
-2. About the project Topic
-3. Proposed System Data Flow Diagram
-4. Steps to run the Final Code
+2. Demonstration Video Link
+3. About the project Topic
+4. Proposed System Data Flow Diagram
+5. Steps to run the Final Code
 
 # 🏮Check Out our Deployed Application🏮 
 
