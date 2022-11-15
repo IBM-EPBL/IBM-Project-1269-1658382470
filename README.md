@@ -21,7 +21,8 @@
 
 # 🏮Check Out our Deployed Application🏮 
 
-🚀http://169.51.207.105:30958/ 🚀
+🚀http://169.51.207.105:30958/ 🚀 ---> **For Educational Purpose only!**
+
 
 🔺**IMPORTANT NOTE**🔺 - While registering using unique username and password. If IBM Cloud default security service identifies the username and passoword combo to be breachable then internal server error occurs!
 
